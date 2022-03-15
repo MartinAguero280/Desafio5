@@ -30,10 +30,16 @@ header {
     border-bottom: 1px solid #1C1C1C;
 }
 
+.ContenedorLogoManoniMotoRep:hover {
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
 .LogoManoniMotoRep {
     width: 200px;
     height: 60px;
     align-items: center;
+    transition: all 0.5s;
 }
 
 header nav div ul li {
@@ -43,11 +49,18 @@ header nav div ul li {
 
 .NavA {
     color: black;
+    transition: all 0.5s;
 }
 
 .CarritoDeCompras {
     width: 40px;
     height: 25px;
+    transition: all 0.5s;
+}
+
+.ContenedorNavA:hover {
+    transform: scale(1.1);
+    transition: all 0.5s;
 }
 
 .Hero {
@@ -65,10 +78,16 @@ header nav div ul li {
     width: 30%;
     color: white;
     font-size: large;
+    transition: all 0.5s;
 }
 
 .HeroTexto h1 {
     font-size: xx-large;
+}
+
+.HeroTexto:hover {
+    transform: scale(1.05);
+    transition: all 0.5s;
 }
 
 .HeroBoton {
@@ -78,9 +97,19 @@ header nav div ul li {
     background-color: white;
 }
 
-.HeroImagen {
+.ContenedorHeroImagen {
     width: 25%;
+    transition: all 0.5s;
+}
+
+.HeroImagen {
     object-fit: contain;
+    transition: all 0.5s;
+}
+
+.ContenedorHeroImagen:hover {
+    transform: scale(1.05);
+    transition: all 0.5s;
 }
 
 .ProductosDestacadosTexto {
@@ -101,16 +130,23 @@ header nav div ul li {
 .ProductoContenedor {
     width: 20%;
     height: 20%;
+    transition: all 0.5s;
+}
+
+.ProductoContenedor:hover {
+    transform: scale(1.1);
 }
 
 .ProductoImagen {
     width: 100%;
     height: 100%;
+    transition: all 0.5s;
 }
 
 .InfoProducto {
     color: black;
     background-color: white;
+    transition: all 0.5s;
 }
 
 .TodosLosProductosBoton {
@@ -118,6 +154,11 @@ header nav div ul li {
     flex-direction: row;
     justify-content: center;
     margin: 2rem 0 5rem 0;
+    transition: all 1s;
+}
+
+.TodosLosProductosBoton:hover {
+    transform: scale(1.1);
 }
 
 .TodosLosProductosTexto {
